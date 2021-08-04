@@ -1,0 +1,151 @@
+.body{
+
+   margin:0 ;
+   padding: 0;
+}   
+.body:before{
+
+   content: "";
+   position: fixed;
+   width: 100vw;
+   height: 100vh;
+   background-image: url(n6.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   -webkit-filter: blur(60px);
+   -moz-filter: blur(60px);
+   filter:
+}
+
+.student h1{
+   position: absolute;
+   top: 4%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+  .student h2{
+   position: absolute;
+   top: 80%;
+   left: 40%;
+   text-align: center;
+   transform: translate(-50%, -50%);
+
+ }
+ a{
+   text-decoration: none;
+   text-align: left;
+   color: crimson;
+}
+
+ 
+
+
+.top-right-corner{
+   position:absolute;
+   text-justify: 10px;
+   text-align: top right;
+   text-decoration: magenta;
+   text-shadow: red;
+   top: 0px;
+   right: 0px;
+ /* background:rgb(238, 153, 224);*/
+
+}
+
+
+.container {
+   display: inline-block;
+   cursor: pointer;
+
+ }
+ 
+ .bar1, .bar2, .bar3 {
+   width: 35px;
+   height: 5px;
+   background-color: #333;
+   margin: 6px 0;
+   transition: 0.4s;
+ }
+ 
+.mobile-container {
+   max-width: 480px;
+   margin: auto;
+   background-color: rgb(231, 193, 193);
+   height: 500px;
+   color: white;
+   border-radius: 10px;
+}
+#fname.#lname{
+   border-radius: 0.25px;
+   width: 230;
+   height: 40;
+}
+
+.topnav {
+   overflow: hidden;
+   background-color: #333;
+   position: relative;
+ }
+ 
+ .topnav #myLinks {
+   display: none;
+ }
+ 
+ .topnav a {
+   color: white;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+   display: block;
+ }
+ 
+ .topnav a.icon {
+   background: rgb(12, 81, 209);
+   display: block;
+   position: absolute;
+   right: 0;
+   top: 0;
+ }
+ 
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ .active {
+   background-color: #04AA6D;
+   color: white;
+ }
+ 
+
+
+.a{
+  color: rgb(205, 255, 68);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10px;
+  text-align: top right;
+  text-transform: capitalize;
+  text-decoration-color: yellowgreen;
+  text-shadow: 5px red;
+
+}
+}
+.avatar{
+
+   position: absolute;
+   width: 200vw;
+   height: 200vh;
+   border-radius: 50%;
+   overflow: hidden;
+   top: calc(-80px/2);
+   left: calc(50% -40px);
+
+}
+.span{
+   float: left;
+   padding-left: 16px;
+   display: block;
+   color: darkblue;
+}
